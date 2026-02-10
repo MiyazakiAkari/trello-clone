@@ -1,8 +1,12 @@
 import { Header } from "./components/header/Header";
+import TaskCardsList from "./components/task/TaskCards";
 
 function App() {
   return (
-    <div><Header /></div>
+    <div className="app">
+      <Header />
+      <TaskCardsList />
+      </div>
   );
 }
 
