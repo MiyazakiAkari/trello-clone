@@ -23,3 +23,10 @@ header {
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+.taskCard {
+  width: 250px;
+  margin: 10px 1%;
+  background-color: #ebecf0;
+  border-radius: 5px;
+}
